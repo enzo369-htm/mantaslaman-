@@ -788,57 +788,6 @@ footer[id] {
   background: rgba(255, 255, 255, 0.1);
 }
 
-/* Barra fija mobile */
-.sticky-cta {
-  display: none;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 90;
-  padding: 0.65rem var(--space);
-  padding-bottom: max(0.65rem, env(safe-area-inset-bottom));
-  background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(10px);
-  border-top: 1px solid rgba(42, 40, 38, 0.08);
-  box-shadow: 0 -8px 32px rgba(36, 53, 41, 0.1);
-  gap: 0.5rem;
-  justify-content: center;
-}
-
-@media (max-width: 640px) {
-  .sticky-cta {
-    display: flex;
-  }
-
-  body {
-    padding-bottom: 4.5rem;
-  }
-}
-
-.sticky-cta a {
-  flex: 1;
-  max-width: 11rem;
-  text-align: center;
-  padding: 0.7rem 0.5rem;
-  font-size: 0.65rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  text-decoration: none;
-  border-radius: var(--radius-full);
-}
-
-.sticky-cta a:first-child {
-  background: linear-gradient(135deg, var(--sage) 0%, var(--sage-deep) 100%);
-  color: #fff;
-}
-
-.sticky-cta a:last-child {
-  border: 1px solid rgba(42, 40, 38, 0.2);
-  color: var(--text);
-}
-
 /* Footer */
 .site-footer {
   background: var(--beige-footer);
