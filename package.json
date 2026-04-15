@@ -2,8 +2,8 @@
   "name": "lamane-mantas",
   "private": true,
   "scripts": {
-    "dev": "python3 -m http.server 5173 --directory public",
-    "start": "python3 -m http.server 5173 --directory public",
+    "dev": "python3 -m http.server 5173",
+    "start": "python3 -m http.server 5173",
     "build": "node -e \"process.exit(0)\""
   }
 }
